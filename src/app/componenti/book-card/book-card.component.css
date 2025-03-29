@@ -1,0 +1,18 @@
+.card{
+  margin: 10px;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.col-md-8 {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 850px){
+.row{
+width: 180px;
+} 
+}

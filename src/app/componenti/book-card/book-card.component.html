@@ -1,0 +1,14 @@
+<div *ngFor="let book of books" (click)="getDetails(book.key)" class="card mb-3" style="max-width: 440px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img [src]="'https://covers.openlibrary.org/b/id/' + book.cover_id + '-M.jpg'" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h4 class="card-title">{{book.title}}</h4>
+        <p *ngIf="book.authors.length > 0" class="card-text">Autore: {{book.authors[0].name}}</p>
+        <app-book-details [details]="detail"></app-book-details>
+      </div>
+    </div>
+  </div>
+</div>

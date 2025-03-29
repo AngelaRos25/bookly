@@ -1,0 +1,32 @@
+.dark-modal .modal-content {
+  background-color: #292b2c;
+  color: white;
+}
+
+.modal-body p {
+  word-wrap: break-word;
+  margin: 5px;
+  padding: 5px;
+}
+
+.dark-modal .close {
+  color: white;
+}
+.light-blue-backdrop {
+  background-color: #5cb3fd;
+}
+
+.btn {
+  font-weight: bold;
+  color: white;
+  background-color: #C5A880;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #967d5b;
+}
+
+.btn:active {
+  background-color: #4E342E;
+}

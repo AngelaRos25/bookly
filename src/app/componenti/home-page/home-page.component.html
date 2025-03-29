@@ -1,0 +1,10 @@
+<div class="header">
+  <h1>Search the next Book</h1>
+  <div class="col-sm-10">
+    <input type="text" class="form-control" placeholder="Enter the category" [(ngModel)]="category" aria-describedby="button-addon2">
+    <button (click)="search(category)"  type="button" class="btn btn-success" id="button-addon2">Search</button>
+  </div>
+</div>
+<div class="content">
+  <app-book-card [books]="book"></app-book-card>
+</div>
