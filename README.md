@@ -50,7 +50,7 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 - [Open Library](https://openlibrary.org/developers/api)
 
 ##  Try It!
-You can try it here: [Urban Horizon](https://urban-horizon.netlify.app)
+You can try it here: [Bookly](https://bookly-b7b4e.web.app/)
 
 ## Contact
  [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/angiirosi/)
