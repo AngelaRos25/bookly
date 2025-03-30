@@ -27,7 +27,7 @@ This book card will contain a specific button, which if clicked you will see the
 4. Start development server:
    
    ```bash
-   npm serve
+   npm start
    ```
   Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
