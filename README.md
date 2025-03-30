@@ -1,6 +1,6 @@
 # Bookly
 
-##About the project
+## About the project
 This application is developed using Angular Framework, and is based on the APIs provided by Open Library.
 It should consist of a simple textbox to allow the user to search for all books in a specific category.
 When the user click on a specific button, the application will have to contact the Api and will appear a list of book card with only the title and the list of authors.
