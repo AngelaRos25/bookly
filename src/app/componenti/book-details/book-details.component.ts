@@ -19,7 +19,7 @@ export class BookDetailsComponent {
 
   openLg(content: TemplateRef<any>) {
     if (!this.details) {
-      console.warn("⚠️ 'details' non è pronto, riprova più tardi!");
+      console.warn("'details' non è pronto, riprova più tardi!");
       return;
     }else{
       this.details = undefined;

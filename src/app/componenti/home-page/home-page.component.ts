@@ -20,11 +20,19 @@ export class HomePageComponent implements OnInit {
   ngOnInit(): void { }
 
   search(category: string) {
+    if(!category){
+      console.error('errore categoria richiesta');
+      return;
+    }
     this.apiService.getCategory(category).subscribe({
       next: (data) => {
-        this.book = data.works;
-        console.log('search', data);
-        console.log(this.book)
+        if( data && data.works && data.works.length > 0){
+          this.book = data.works;
+          console.log('search', this.book);
+        }else{
+          console.error('nessun libro trovato con questa categoria');
+          this.book = [];
+        }
       },
       error: (error) => {
         console.error('search error', error)
